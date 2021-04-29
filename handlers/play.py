@@ -84,8 +84,8 @@ async def play(client: Client, message_: Message):
         res.delete
         m = await client.send_photo(
         chat_id=message_.chat.id,
-        photo="https://telegra.ph/file/4cd733757f69a75ae8c62.jpg",
-        caption=f"Playing Your song Via 𝗩𝗖𝗣𝗹𝗮𝘆.",
+        photo="https://telegra.ph/file/27fbd5660bc197f2a0bee.jpg",
+        caption=f"Playing Your Audiobook.",
          ) 
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
 

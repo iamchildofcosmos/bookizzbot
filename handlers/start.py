@@ -13,7 +13,7 @@ async def start_(client: Client, message: Message):
         f"""<b>Hello {message.from_user.first_name}!
 I am Vc audiobook Streamer bot. I will help you to being the best version of urself.
 Hey Listen to me you are beautiful just the way you are , we live in a judgemental society
-Believe in ur self 🖤 Have a good day & Night & Everyone
+Believe in ur self 🖤 
 
 Use the buttons below to know more about me.
  </b>""",

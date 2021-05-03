@@ -82,8 +82,8 @@ async def play(client: Client, message_: Message):
     else:
         await res.edit_text("▶️ Playing...")
         
-         ) 
-        tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
+         
+        
 
 
 #---------------------------------DEEZER------------------------------------------------------------------
